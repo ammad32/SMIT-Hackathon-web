@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.navbar i {
+    font-size: 30px;
+}
+.navbar  a h1{
+    color: #502314;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.right-side{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.right-side i {
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+#user{
+    color: #502314;
+}
+
+.right-side button{
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    border-radius: 50px;
+    font-weight: 500;
+border: none;
+
+
+}
+
+.right-side button i {
+    font-size: 15px;
+    padding-right: 5px;
+}
+.line{
+    border-bottom: 2px solid black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content h1{
+    font-size: 56px;
+    font-weight: 900;
+    color: #502314;
+}
+
+.image img{
+    width: 100%;
+    height: 400px;
+}
+
+.content button {
+ padding: 10px 40px;
+    color: white;
+    background-color: red;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 15px;
+border: none;
+margin: 10px;
+}
+
+.content button i {
+    padding-right: 10px;
+}
+
+.content .button-1{
+     padding: 10px 40px;
+     color: #502314;
+     background-color: white;
+     border: 1px solid black;
+     font-size: 15px;
+}
+ .button-1:hover{
+    background-color: rgb(142, 144, 146);
+ }
+
+button:hover{
+    background-color: rgb(233, 49, 49);
+}
+
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 60px;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+.card h5{
+    color: #502314;
+    font-weight: 900;
+}
+
+.card p{
+    font-size: 14px;
+    color: #502314;
+}
+
+ .promo-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #e9e2e2;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .promo-container img {
+            max-width: 250px;
+        }
+
+        .promo-text {
+            text-align: center;
+        }
+
+        .promo-text h1 {
+            font-size: 2rem;
+            color: #6b4226;
+        }
+
+        .promo-text p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .app-links {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .app-links img {
+            width: 150px;
+            cursor: pointer;
+        }
+
+        .legal-text {
+            font-size: 5px;
+            color: #502314;
+            margin-top: 10px;
+        }
+
+.footer{
+    background-color: #502314;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
